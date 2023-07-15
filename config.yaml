@@ -69,8 +69,10 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Yet Another Tech Blog"
-    Content: "No one:\nMe: Hugo goes BRRRRRRRRR"
+    Title: "sgarland.dev"
+    Content: |-
+      "No one: "
+      "Me: Hugo goes BRRRRRRRR"
 
   socialIcons:
     #- name: twitter
@@ -102,10 +104,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
+    #- identifier: categories
+    #  name: categories
+    #  url: /categories/
+    #  weight: 10
     - identifier: tags
       name: tags
       url: /tags/
