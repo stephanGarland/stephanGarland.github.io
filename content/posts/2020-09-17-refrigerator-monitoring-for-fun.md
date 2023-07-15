@@ -15,7 +15,7 @@ My first thought was to leverage one of the many smart plugs I have laying aroun
 
 My next thought was to buy a smart outlet with Zigbee or Z-Wave, but I realized that I don't have a controller (I have Echoes, but not the Echo Plus, which can talk to Zigbee devices), so that was out.
 
-I then remembered that I had an old Raspberry Pi Zero W kicking around doing nothing. When brewing beer, it acts as a relay for my Tilt hydrometer to push logging data to the cloud, but otherwise, it does nothing. I could write a simple script like [I did here](https://sgarland.dev/2019/07/27/server-healthy-check/) and... wait, I work for a monitoring company. Duh.
+I then remembered that I had an old Raspberry Pi Zero W kicking around doing nothing. When brewing beer, it acts as a relay for my Tilt hydrometer to push logging data to the cloud, but otherwise, it does nothing. I could write a simple script like [I did here](https://sgarland.dev/posts/2019-07-27-server-healthy-check/) and... wait, I work for a monitoring company. Duh.
 
 I loaded up [Hypriot](https://blog.hypriot.com/), as I'm running that on my RPi 4 and love it - if I ever want to put stuff into Docker on this, I'm ready to go. I realized after perusing Hypriot's site that they support cloud-init, so I [shamelessly stole](https://github.com/hypriot/flash/tree/master/sample) wrote up some [YAML](https://pastebin.com/kes45avm), flashed the card, booted it up, and... hooray! I do have a lingering issue getting my runcmd script to execute, but I'll solve that. It obtained a DHCP lease, installed packages, and imported my SSH key, so I'm happy enough.
 

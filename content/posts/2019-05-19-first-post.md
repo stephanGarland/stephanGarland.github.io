@@ -2,7 +2,7 @@
 title: 'First Post!'
 date: Sun, 19 May 2019 07:05:53 +0000
 draft: false
-tags: ['short']
+tags: ['short', 'meta']
 ---
 
 Before Reddit, there was Digg. Before Digg, there was /.

@@ -2,7 +2,7 @@
 title: 'I can has job!'
 date: Fri, 08 Nov 2019 04:59:33 +0000
 draft: false
-tags: ['short']
+tags: ['short', 'meta']
 ---
 
 Well, it happened. I'm not sure what weighting the various components held (I've gathered that the amount of things I dove into as personal projects was the dominant factor), but however it played out, it worked. I'm now (actually, for about a month now - I didn't want to jinx it) an Associate Site Reliability Engineer for [LogicMonitor.](https://www.logicmonitor.com/) They're a California company, but have an office (two, for now, soon to be merged) in Austin. Their product is an extremely impressive device monitoring solution, allowing companies to easily view the status of their servers, cloud instances, switches, and anything else with a heartbeat. I'm using it myself to monitor this website's health, as well as the mongodb container on my home server, as I'm using it in a school project. It sends an email and Slack notification when it detects an outage. The product can also interface with PagerDuty or anything else with an API to send out escalations to the needed personnel.

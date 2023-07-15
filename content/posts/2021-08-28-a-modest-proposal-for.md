@@ -5,7 +5,7 @@ draft: false
 tags: ['short', 'homelab']
 ---
 
-In case you haven't been following my work (I absolutely can't blame you, as this blog is self-congratulatory at best), [I have a 25U rack](https://sgarland.dev/2021/01/03/hardware-sucks/) with some stuff in it. In short, it consists of a Supermicro 2U X9, and a ZFS pool, with an almost-identical second Supermicro 2U X9 that exists as a cold spare, and a ZFS backup target. There's also a Dell R620 1U that I've done absolutely nothing with yet beyond installing Proxmox. And, of course, networking gear.
+In case you haven't been following my work (I absolutely can't blame you, as this blog is self-congratulatory at best), [I have a 25U rack](https://sgarland.dev/posts/2021-01-03-hardware-sucks/) with some stuff in it. In short, it consists of a Supermicro 2U X9, and a ZFS pool, with an almost-identical second Supermicro 2U X9 that exists as a cold spare, and a ZFS backup target. There's also a Dell R620 1U that I've done absolutely nothing with yet beyond installing Proxmox. And, of course, networking gear.
 
 All applications are Dockerized, are orchestrated with Docker Compose, and live in a VM. All VMs save for some experimental ones are templated Debian, with configuration handled via Packer and Ansible. Replacing a VM is trivial.
 
