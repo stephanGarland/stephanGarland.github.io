@@ -1,0 +1,12 @@
+---
+title: 'I can has job!'
+date: Fri, 08 Nov 2019 04:59:33 +0000
+draft: false
+tags: ['short']
+---
+
+Well, it happened. I'm not sure what weighting the various components held (I've gathered that the amount of things I dove into as personal projects was the dominant factor), but however it played out, it worked. I'm now (actually, for about a month now - I didn't want to jinx it) an Associate Site Reliability Engineer for [LogicMonitor.](https://www.logicmonitor.com/) They're a California company, but have an office (two, for now, soon to be merged) in Austin. Their product is an extremely impressive device monitoring solution, allowing companies to easily view the status of their servers, cloud instances, switches, and anything else with a heartbeat. I'm using it myself to monitor this website's health, as well as the mongodb container on my home server, as I'm using it in a school project. It sends an email and Slack notification when it detects an outage. The product can also interface with PagerDuty or anything else with an API to send out escalations to the needed personnel.
+
+There won't be any technical inputs to this post, but I hope that if someone stumbles across this blog after wearily reading /r/cscareerquestions, they'll find solace. You don't have to grind Leetcode to land a job, I promise. No, it's not FAANG, but the salary is more than adequate, I work from home 4/5 of the week, and my team is incredibly brilliant.
+
+All in all, it took me about a year of work to get here. Most of that was teaching myself Docker and improving Linux/Bash/Python skills, but I wasn't really pushing myself. I think if someone was really driven, they could do what I did in a few months. Actual time spent job searching to hire was about a month. I applied to about ten companies who had an Austin presence, including some I knew I had little to no chance at, and got precisely one callback - LogicMonitor. A SWE I know in Seattle had roughly the same callback ratio, albeit stretched out to ~70 companies, so the math holds. I had some which I fully expected to immediately be called back on, given the stated job description and requirements, only to be met with silence, or at best, an auto-generated denial. Don't give up hope - keep tweaking your resume, do some A/B testing, and keep pushing. You'll get there.
