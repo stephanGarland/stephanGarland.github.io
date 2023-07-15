@@ -69,8 +69,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "hi \U0001F44B"
-    Content: sgarland.dev
+    Title: "Yet Another Tech Blog"
+    Content: "No one:\nMe: Hugo goes BRRRRRRRRR"
 
   socialIcons:
     #- name: twitter
