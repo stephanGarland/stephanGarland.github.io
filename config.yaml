@@ -18,7 +18,7 @@ params:
   description: "Yet Another Blog"
   keywords: [Blog, PaperMod]
   author: Stephan Garland
-  DateFormat: "2023-01-01"
+  DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
