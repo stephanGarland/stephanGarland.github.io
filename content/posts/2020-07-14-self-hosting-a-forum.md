@@ -2,7 +2,7 @@
 title: 'Self-hosting a forum with Discourse'
 date: Tue, 14 Jul 2020 22:09:26 +0000
 draft: false
-tags: ['#self-hosting', '#socialmedia', '#docker']
+tags: ['self-hosting', 'socialmedia', 'docker']
 ---
 
 What do you do if you want a private social media experience for you and friends or family? Facebook has Groups, and lesser-known apps like Band exist that can also fill that niche, but you're still handing over all your content to a 3rd party. For some, that's untenable, and completely understandable. Furthermore, I wouldn't have anything of interest to write if the answer was "Make a Group. Now set it to Private. Invite people."
