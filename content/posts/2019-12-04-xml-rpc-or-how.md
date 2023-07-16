@@ -13,7 +13,7 @@ This afternoon, my wife texted me that [her site](https://jenn.kitchen) (shamele
 
 I'll fast-forward a bit and say that rebooting it did work, but it took longer than I expected to go down and up. I suspect Amazon tries to do a polite reboot, and given the limited hardware resources and OOM errors the server was having, it took a while to come back.
 
-First things first, why didn't I receive an alert? After all, I [work for](https://sgarland.dev/2019/11/07/i-can-has-job/) a [monitoring company](https://www.logicmonitor.com), and I set it up to monitor all my stuff. Turns out it helps when you give the alerts somewhere to go, like your phone. Whoops.
+First things first, why didn't I receive an alert? After all, I [work for](https://sgarland.dev/posts/2019-11-07-i-can-has-job/) a [monitoring company](https://www.logicmonitor.com), and I set it up to monitor all my stuff. Turns out it helps when you give the alerts somewhere to go, like your phone. Whoops.
 
 ![](/images/2019-12-04-xml-rpc-or-how/1.png)
 
