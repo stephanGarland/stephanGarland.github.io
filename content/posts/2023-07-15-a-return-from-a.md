@@ -1,7 +1,7 @@
 ---
 title: A Return From A Lengthy Hiatus
 date: Sat, 15 Jul 2023 19:27:15 -0400
-draft: true
+draft: false
 tags: ['short', 'meta']
 ---
 
