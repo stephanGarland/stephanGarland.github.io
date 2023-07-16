@@ -36,6 +36,6 @@ Sep 18 01:05:06 fridge-watch wpa_supplicant[354]: wlan0: CTRL-EVENT-ASSOC-REJECT
 Sep 18 01:05:06 fridge-watch wpa_supplicant[354]: wlan0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="Garland IOT" auth_failures=1 duration=10 reason=CONN_FAILED
 ```
 
-In retrospect, this is unsurprising. There are many references to this specific problem on RPi forums, albeit with the problem usually not resolving itself. In this case, I opted to change the alert escalation interval to require 20 minutes of sustained loss before sounding the alarm. The longest I saw in the logs was about 5 minutes, so that should be more than enough time for the Pi to re-associate. Status code 16 for auth failure is due to a timeout failure during the auth sequence, which could be correlated to signal issues.  
-  
+In retrospect, this is unsurprising. There are many references to this specific problem on RPi forums, albeit with the problem usually not resolving itself. In this case, I opted to change the alert escalation interval to require 20 minutes of sustained loss before sounding the alarm. The longest I saw in the logs was about 5 minutes, so that should be more than enough time for the Pi to re-associate. Status code 16 for auth failure is due to a timeout failure during the auth sequence, which could be correlated to signal issues.
+
 UPDATE 2: It again disassociated, this time for ~22 minutes, or until I picked up the Pi. I'm unsure if me moving the Pi allowed it to obtain a better signal, or if it was merely a coincidence. I've since disabled power saving on the Pi, and will continue to monitor.
