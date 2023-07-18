@@ -13,6 +13,7 @@ Specifically, it's been 484 days since I last posted. Things have changed a bit.
 * The site uses Hugo instead of WordPress
 * The site is fronted with bunny.net instead of Cloudflare
 * I'm now a Database Reliability Engineer
+* I was diagnosed with ADHD
 
 ## What happened?
 
@@ -28,9 +29,13 @@ As of this writing, the homelab is running k3os as before for all hosted apps, b
 
 As to the blog, as mentioned, this is hosted via GitHub Pages. I don't remember if it supported a custom domain name when I first looked at it; I vaguely recall that being a reason I didn't want to use it. Regardless, it now does, and it only took me the better part of a day to get everything going. Most of that was because I was insistent on writing a script to fix some of the mistakes made by the Wordpress exporter, instead of doing so by hand like a plebe.
 
-## No, what happened to your job?
+## No, what happened to the important thing?
 
 I was an SRE, and kept getting pulled into database incidents because I was decent at troubleshooting them. I found out that I really enjoy them, and we opened up a spot for a DBRE, so I made a lateral move. I'll write more about databases soon, I'm sure.
+
+## The ADHD diagnosis, you dolt.
+
+I'll write more about that later.
 
 ## Will you stop writing again?
 
