@@ -70,7 +70,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "sgarland.dev"
-    Content: "while true; do printf '%s\n' 'are we there yet?'; done"
+    Content: "while true; do printf '%s\\n' 'are we there yet?'; done"
 
   socialIcons:
     #- name: twitter
