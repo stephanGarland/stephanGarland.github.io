@@ -1,7 +1,7 @@
 ---
 title: On Being Wrong (Again) – Now With Metrics
 date: Tue, 30 Apr 2024 13:41:59 -0400
-draft: true
+draft: false
 tags: ['linux', 'homelab', 'non-tech']
 ---
 
