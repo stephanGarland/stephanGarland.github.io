@@ -1,6 +1,6 @@
 baseURL: "https://sgarland.dev"
+languageCode: "en-us"
 title: sgarland.dev
-paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -11,6 +11,9 @@ buildExpired: false
 minify:
   disableXML: true
   minifyOutput: true
+
+pagination:
+  pagerSize: 5
 
 params:
   env: production
@@ -73,8 +76,6 @@ params:
     Content: "while true; do printf '%s\\n' 'are we there yet?'; done"
 
   socialIcons:
-    #- name: twitter
-    #  url: "https://twitter.com/"
     - name: stackoverflow
       url: "https://stackoverflow.com/users/4221094/stephan-garland"
     - name: github
@@ -109,14 +110,13 @@ menu:
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
       weight: 30
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
@@ -128,4 +128,3 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
-
